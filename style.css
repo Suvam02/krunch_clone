@@ -1,0 +1,112 @@
+*{
+    overflow-x:visible;
+}
+a:hover{
+    color: rgb(255, 255, 255);  
+    
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+.con{
+    position: relative;
+    text-align: center;
+}
+.ct{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    color: white;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    
+}
+.Aboutus{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    
+    text-align: center;
+    position: relative;
+    
+
+}
+@media only screen and (max-width: 768px){
+    .ct h1{
+        font-size: 8px;
+    }
+    .ct p{
+        display: none;
+    }
+    .f i{
+        display: none;
+    }
+    .f{
+        display:flexbox;
+    }
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.About{
+    display: flexbox;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto 20px;
+    
+    text-align: center;
+    position: relative;
+}
+.About h3{
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+hr{
+    align-items: center;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0% 50%;
+    height: 20px;
+}
+.p{
+    z-index: 5;
+}
+.pro {
+    display:block;
+    
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    color: white;
+    
+    
+}
+.p :hover{
+    z-index: 1;
+}
+footer {
+    background-color: black;
+
+}
+.f{
+    display: block;
+    max-width: 100%;
+}
+.f a{
+    text-decoration: none;
+    color: aqua;
+    margin: 0px 5px;
+}
